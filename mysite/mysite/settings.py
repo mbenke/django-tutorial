@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['*'] # unsafe
 # Application definition
 
 INSTALLED_APPS = [
+    'animals.apps.AnimalsConfig',
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
